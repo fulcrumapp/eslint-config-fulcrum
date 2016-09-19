@@ -35,7 +35,7 @@ module.exports = {
     "key-spacing": [2, { "beforeColon": false, "afterColon": true }],
     "keyword-spacing": [2, {"before": true, "after": true, "overrides": {}}],
     "linebreak-style": [2, "unix"],
-    "new-cap": 2,
+    "new-cap": 0,
     "new-parens": 2,
     "no-alert": 2,
     "no-caller": 2,
