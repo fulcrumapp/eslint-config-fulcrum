@@ -33,7 +33,7 @@ module.exports = {
     "handle-callback-err": [2, "^.*(e|E)rr"],
     "id-blacklist": [0],
     "id-length": [2, {"min": 0}],
-    "indent": [2, 2, {"SwitchCase": 1, "CallExpression": {"arguments": "first"}}],
+    "indent": [2, 2, {"SwitchCase": 1, "CallExpression": {"arguments": "first"}, "ArrayExpression": "first", "ObjectExpression": "first"}],
     "init-declarations": 2,
     "jsx-quotes": 2,
     "key-spacing": [2, { "beforeColon": false, "afterColon": true }],
