@@ -194,7 +194,7 @@ module.exports = {
     "valid-typeof": 2,
     "wrap-iife": 2,
     "yoda": [2, "never"],
-    "babel/generator-star-spacing": [2, { "before": true, "after": true }],
+    "generator-star-spacing": [2, { "before": true, "after": true }],
     "react/display-name": 2,
     "react/forbid-prop-types": 0,
     "react/no-array-index-key": 0,
@@ -223,7 +223,6 @@ module.exports = {
     "react/sort-prop-types": 0,
     "react/style-prop-object": 2,
     "react/void-dom-elements-no-children": 0,
-    "react/wrap-multilines": 2,
     "react/jsx-uses-vars": 1,
     "react/jsx-uses-react": 1,
     "react/jsx-closing-bracket-location": [1, "after-props"],
@@ -249,7 +248,8 @@ module.exports = {
     "react/jsx-pascal-case": 2,
     "react/jsx-sort-props": 0,
     "react/jsx-space-before-closing": [2, "always"],
-    "react/jsx-tag-spacing": 2
+    "react/jsx-tag-spacing": 2,
+    "react/jsx-wrap-multilines": 2
   },
   "parserOptions": {
     "sourceType": "module",
