@@ -150,7 +150,7 @@ module.exports = {
     "no-unreachable": 2,
     "no-unsafe-negation": 2,
     "no-unused-expressions": 2,
-    "no-unused-vars": [2, {"vars": "all", "args": "none"}],
+    "no-unused-vars": [2, {"vars": "all", "args": "none", "ignoreRestSiblings": true}],
     "no-unsafe-finally": 2,
     "no-use-before-define": 2,
     "no-useless-call": 2,
