@@ -1,13 +1,15 @@
 {
   "name": "eslint-config-fulcrum",
-  "version": "1.5.5",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {},
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint-plugin-babel": "^4.1.1",
-    "eslint-plugin-react": "^6.10.0"
+    "@babel/eslint-parser": "^7.13.14",
+    "@babel/eslint-plugin": "^7.13.16",
+    "@babel/plugin-transform-modules-commonjs": "^7.13.8",
+    "eslint-plugin-react": "^7.23.2"
   }
 }
