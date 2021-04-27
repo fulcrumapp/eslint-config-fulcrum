@@ -273,9 +273,9 @@ module.exports = {
     "THEME": true
   },
   "extends": "eslint:recommended",
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "plugins": [
     "react",
-    "babel"
+    "@babel"
   ]
 };
